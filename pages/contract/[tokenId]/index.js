@@ -1,6 +1,5 @@
 import { useRouter } from "next/router";
 import contractAbi from "../../api/contractAbi.json";
-import getContractAbi from "../../contractAbi";
 import { useState } from "react";
 import { ethers } from "ethers";
 import Script from "next/script";
