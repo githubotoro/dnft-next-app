@@ -1,7 +1,13 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
+import Script from "next/dist/client/script";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+	return (
+		<>
+			<Script src="https://platform.twitter.com/widgets.js" />
+			<Component {...pageProps} />
+		</>
+	);
 }
 
-export default MyApp
+export default MyApp;
