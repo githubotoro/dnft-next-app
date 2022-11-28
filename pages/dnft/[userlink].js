@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 const DnftRender = () => {
 	const router = useRouter();
 	const userLinkName = router.query.userlink;
-	const userLink = `https://${userLinkName}.vercel.app`;
+	// const userLink = `https://${userLinkName}.vercel.app`;
 
 	return (
 		<>
@@ -30,6 +30,8 @@ const DnftRender = () => {
 								<a
 									className="underline text-black"
 									href="https://twitter.com/yupuday"
+									target="_blank"
+									rel="noreferrer"
 								>
 									Click here
 								</a>
