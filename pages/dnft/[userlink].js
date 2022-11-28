@@ -23,7 +23,7 @@ const DnftRender = () => {
 
 				<center>
 					<div className="p-4 -mt-40 items-center">
-						<div className="w-full h-fit rounded-lg drop-shadow-lg border-8 border-indigo-800 bg-gradient-to-r from-blue-500 to-sky-500">
+						<div className="test w-full h-fit rounded-lg drop-shadow-lg border-4 border-white">
 							<div className="p-1 text-md font-bold text-white">
 								Something is brewing here!
 								<br />
