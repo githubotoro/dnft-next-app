@@ -24,7 +24,7 @@ const DnftRender = () => {
 				<center>
 					<div className="p-4 -mt-48 items-center">
 						<div className="w-full h-fit rounded-lg drop-shadow-lg border-8 border-indigo-800 bg-gradient-to-r from-blue-500 to-sky-500">
-							<div className="p-2 text-md font-bold text-white">
+							<div className="p-1 text-md font-bold text-white">
 								Something is brewing here!
 								<br />
 								CTRL + CLICK&nbsp;
@@ -37,9 +37,6 @@ const DnftRender = () => {
 									here
 								</a>
 								&nbsp;to know more!
-								<br />
-								Here goes some pretty clear and concise
-								description.
 								<br />
 								👀👀👀
 							</div>
