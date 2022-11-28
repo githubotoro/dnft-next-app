@@ -22,10 +22,10 @@ const DnftRender = () => {
 				></img>
 
 				<center>
-					<div className="p-4 -mt-40 items-center">
+					<div className="p-4 -mt-28 items-center">
 						<div className="test w-full h-fit rounded-lg drop-shadow-lg border-4 border-white">
 							<div className="p-1 text-md font-bold text-white">
-								Something is brewing here!
+								Something is brewing..
 								<br />
 								CTRL + CLICK&nbsp;
 								<a
