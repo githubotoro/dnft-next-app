@@ -23,17 +23,18 @@ const DnftRender = () => {
 
 				<center>
 					<div className="p-4 -mt-48 items-center">
-						<div className="w-full h-fit bg-blue-500 rounded-lg drop-shadow-lg border-8 border-indigo-800">
-							<div className="p-4 text-md font-bold text-white">
+						<div className="w-full h-fit rounded-lg drop-shadow-lg border-8 border-indigo-800 bg-gradient-to-r from-blue-500 to-sky-500">
+							<div className="p-2 text-md font-bold text-white">
 								Something is brewing here!
 								<br />
+								CTRL + CLICK&nbsp;
 								<a
 									className="underline text-black"
 									href="https://twitter.com/yupuday"
 									target="_blank"
 									rel="noreferrer"
 								>
-									Click here
+									here
 								</a>
 								&nbsp;to know more!
 								<br />
